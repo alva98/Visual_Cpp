@@ -13,7 +13,7 @@ cout << "Cateto B: ";
 cin >> catetoB;
 
 hipotenusa = (float) sqrt(pow(catetoA, 2)+ pow(catetoB, 2));
-
+cout ;
 cout << "\n\nHipotenusa = " << hipotenusa;
 cout << "\n\n\n\n";
 
