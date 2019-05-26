@@ -1,6 +1,14 @@
 #include <iostream.h>
 #include <math.h>
 
+void Calcula_Volumen(float largo, float ancho, float alto)
+  {
+  Calcula_Volumen = largo * ancho * alto;
+  cout << "\nCálculo del volumen" << endl;
+  cout << "V = " << Calcula_Volumen << endl;
+  return;
+  }
+
 int main()
 {
 float catetoA, catetoB, hipotenusa;
